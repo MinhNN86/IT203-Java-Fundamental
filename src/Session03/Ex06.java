@@ -3,7 +3,7 @@ package Session03;
 
 import java.util.Arrays;
 
-public class Ex07 {
+public class Ex06 {
 
     public static int[] mergeBooks(int[] a, int[] b) {
         int i = 0, j = 0, k = 0;
