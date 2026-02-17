@@ -28,13 +28,6 @@ public class Main {
 
         System.out.println("Đã khởi tạo " + GameCharacter.count + " nhân vật tham gia đấu trường.\n");
 
-        // Hiển thị thông tin TRƯỚC lượt đấu
-        System.out.println("=== THÔNG SỐ TRƯỚC LƯỢT ĐẤU ===");
-        for (GameCharacter c : characters) {
-            c.displayInfo();
-        }
-        System.out.println();
-
         yasuo.attack(goblin);
         System.out.println();
 

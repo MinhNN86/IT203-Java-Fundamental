@@ -26,7 +26,7 @@ public class Warrior extends GameCharacter implements ISkill {
     }
 
     @Override
-    public void takeDamage(int amount){
+    public void takeDamage(int amount) {
         int realDamage = Math.max(amount - armor, 0);
         super.takeDamage(realDamage);
     }
