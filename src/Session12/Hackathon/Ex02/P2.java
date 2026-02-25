@@ -1,9 +1,9 @@
-package Session12.Hackathon.sEx02;
+package Session12.Hackathon.Ex02;
 
 import java.util.Scanner;
 
 public class P2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập vào số phần tử của mảng: ");
         int n = sc.nextInt();

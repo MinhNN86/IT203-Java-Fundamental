@@ -3,7 +3,7 @@ package Session12.Hackathon.Ex03;
 import java.util.Scanner;
 
 public class P1 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         // Nhập mảng A
